@@ -1,7 +1,6 @@
 /* место для вашего кода */
-
 header {
-    display: grid;    
+    display: grid;
     grid-template-columns: 1fr min-content 1fr;
     width: 1100px;
     height:293px;
@@ -12,12 +11,12 @@ header {
     width:391.48px;
     height:22px;
     margin-left: 50px;
-    margin-bottom: 5px;  
+    margin-bottom: 5px;
     display:flex;
     flex-wrap: nowrap;
     white-space: nowrap;
     font-family: "Raleway", sans-serif;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
 .header__links-list {
@@ -25,14 +24,14 @@ header {
     list-style:circle;
     list-style-position:outside;
     column-gap: 13px;
-    letter-spacing:normal;    
+    letter-spacing:normal;
 }
 
-.header__links-list-item {    
+.header__links-list-item {
     text-decoration: underline;
     text-underline-offset: 3px;
     font-family: "Raleway", sans-serif;
-    font-size: 18px;  
+    font-size: 18px;
     padding-inline-end: 20px;
     padding-bottom: 15px;
 }
@@ -42,7 +41,7 @@ header {
     text-decoration: none;
 }
 
-.header__link { 
+.header__link {
     text-decoration: underline;
 }
 
@@ -74,7 +73,7 @@ header {
     line-height: 135%;
     text-underline-offset: 4px;
     max-width: 270px;
-    padding-bottom: 2px;   
+    padding-bottom: 2px;
 }
 
 .header__address {
@@ -92,7 +91,7 @@ header {
     background-size: cover;
     padding: 100px,200px;
     min-height: 757px;
-    background-position: center; 
+    background-position: center;
 }
 
 .overlay {
@@ -109,7 +108,7 @@ header {
     z-index: 2;
 }
 
-.cover__title{
+.cover__title {
     display: block;
     position: relative;
     margin-top: 165px;
@@ -122,40 +121,30 @@ header {
     width:1000px;
     height:385px;
     line-height: 115%;
-    
     color: #fff;
-    
-    
 }
 
-.aligned-text{
+.aligned-text {
     display:block;
-    
-
-    
 }
 
-
-.aligned-text_left{
-  
+.aligned-text_left {
   letter-spacing: 0.3em;
-
 }
 
-.aligned-text_center{
+.aligned-text_center {
     letter-spacing: 0.3em;
      margin-top: 22px;
     margin-left: 330px;
 }
      
-
-.aligned-text_right{
+.aligned-text_right {
    letter-spacing: 0.3em;
     margin-top: 18px;
     margin-left: 615px;
 }
 
-.cover__description{
+.cover__description {
     display: flex;
     position:absolute;
     align-items: start;
@@ -167,31 +156,24 @@ header {
     width: 1000px;
     height: 51px;
     font-family: Raleway, sans-serif;
-    
     font-size: 22px;
     line-height: 28px;
     font-weight: 400;
     text-transform: uppercase;
-    
-    color: #fff;  
-    
-
+    color: #fff;
 }
 
-.cover__description-text{
+.cover__description-text {
   align-self: center;
   letter-spacing: normal;
   word-spacing: 18.5px;
-
 }
 
-
-.bet__button{
-   all: unset; 
+.bet__button {
+   all: unset;
    background-color: transparent;
    color:#fff;
    border: #fff;
-   
    width: 256px;
    height: 51px;
    border-radius: 3px;
@@ -200,23 +182,17 @@ header {
    text-align: center;
    letter-spacing: 0%;
    word-spacing: 0px;
-   
-
-    
-    
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
     letter-spacing: 0.1px;
-
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
     letter-spacing: 0%;
-    
 }
 
-.lots{
+.lots {
     display: flex;
     flex-wrap: wrap;
     margin-top: 179px;
@@ -224,10 +200,9 @@ header {
     margin-right: 24px;
     width: 1052;
     height: 723;
-   
 }
 
-.lots__heading{
+.lots__heading {
     display: block;
     text-transform: uppercase;
     font-family: Raleway, sans-serif;
@@ -235,39 +210,32 @@ header {
     line-height: 47px;
     font-weight: 700;
     margin-left: 42px;
-
-  
 }
 
-.lots__card-list{
+.lots__card-list {
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:25px;
     margin-top: 29px;
     margin-bottom: 30px;
-    
     list-style: none;
     padding: 0px;
-
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
     width: 334px;
     min-height: 596px;
-    
-    
 }
 
-.card-link{
+.card-link {
     text-transform: uppercase;
     font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 120%;
-
 }
 
-.card{
+.card {
     display:flex;
     position:relative;
     flex-direction: column;
@@ -277,24 +245,21 @@ header {
     background-position: center;
     justify-content:space-between;
     align-items: center;
-
 }
 
-.card_type_film{
+.card_type_film {
  background: url(../images/card-lot-01.jpg);
-
 }
 
-
-.card_type_book{
+.card_type_book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card_type_picture{
+.card_type_picture {
 background-image: url(../images/card-lot-03.jpg);
-}  
+}
 
-.card__title{
+.card__title {
     display: block;
     z-index: 3;
     align-self: flex-start;
@@ -303,11 +268,9 @@ background-image: url(../images/card-lot-03.jpg);
     margin-top: 48px;
     padding: 0px;
     line-height: 120%;
-
 }
 
-.card__text{
-    
+.card__text {
     z-index: 3;
     align-self:flex-end;
     padding:0px;
@@ -318,29 +281,23 @@ background-image: url(../images/card-lot-03.jpg);
     font-size: 20px;
     line-height: 120%;
     font-weight: 400px;
-
-
 }
 
-.lots__look-more-link{
+.lots__look-more-link {
     font-family: Raleway, sans-serif;
     font-size: 20px;
     line-height: 120%;
     width: 192px;
     height: 23px;
     margin-left: 40px;
-   
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-
 }
 
-.about{
+.about {
     display:grid;
     grid-template-columns: 1fr 2fr;
-   
-    
     width: 1052px;
     height: auto;
     margin-top: 120px;
@@ -348,22 +305,17 @@ background-image: url(../images/card-lot-03.jpg);
     padding-top: 35px;
     padding-left: 47px;
     margin-bottom: 180px;
-    
 }
 
-.about__column{
-   
+.about__column {
     width: 693px;
     height: 449px;
-   margin-top: 98px;
-   margin-right: 0px;
-   margin-bottom: 13px;
-   
-
-
+    margin-top: 98px;
+    margin-right: 0px;
+    margin-bottom: 13px;
 }
 
-.about__logo{
+.about__logo {
     display: flex;
     width: 240px;
     height: 240px;
@@ -372,93 +324,74 @@ background-image: url(../images/card-lot-03.jpg);
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-   
-   
-
 }
 
-.about__logo-image{
+.about__logo-image {
     width: 141.54px;
     height: 112.55px;
-  
-     
-
 }
 
-.about__title{
+.about__title {
     font-family: Raleway, sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-
 }
 
-.about__text{
-     display: flex;
+.about__text {
+    display: flex;
     flex-direction: column;
     gap: 26px;
-  width: 693px;
-  height: 312px;
-  font-family: Raleway, sans-serif;
-  font-weight: Regular;
-  font-size: 20px;
-  line-height: 24px;
-  margin-top: 101px;
-  
-
+    width: 693px;
+    height: 312px;
+    font-family: Raleway, sans-serif;
+    font-weight: Regular;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 101px;
 }
 
-.footer{
+.footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     font-family: Raleway, sans-serif;
     font-weight: 400px;
     line-height: 24.3px;
     font-size: 18px;
-   
-    
-   
-    
 }
 
-
-.footer__address{
+.footer__address {
     display: flex;
     flex-wrap: wrap;
     padding-left: 50px;
     min-width: 350px;
-    
 }
-.footer__menu{
+
+.footer__menu {
     display: flex;
     flex-direction: column;
-    
-   
     text-underline-offset: 2px;
 }
 
-.footer__links-list{
+.footer__links-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     line-height: 120%;
-    
-       
 }
 
-.footer__links-list-item {    
+.footer__links-list-item {
     text-decoration: underline;
     font-family: "Raleway", sans-serif;
-    font-size: 18px;  
-   
-     list-style: none;
+    font-size: 18px;
+    list-style: none;
 }
 
-.footer__link_active{
-   
+.footer__link_active {
     text-decoration: none;
 }
-.image__links{
+
+.image__links {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -468,7 +401,8 @@ background-image: url(../images/card-lot-03.jpg);
     align-items: flex-end;
     justify-self: end;
 }
-.footer__image{
+
+.footer__image {
     width:48px;
     height: 48px;
 }
