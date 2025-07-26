@@ -86,13 +86,13 @@ header {
 }
 
 .cover {
-  display:flex;
-  position:relative;
-  background: url("../images/cover.jpg");
-  background-size: cover;
-  padding: 100px,200px;
-  min-height: 757px;
-  background-position: center; 
+    display:flex;
+    position:relative;
+    background: url("../images/cover.jpg");
+    background-size: cover;
+    padding: 100px,200px;
+    min-height: 757px;
+    background-position: center; 
 }
 
 .overlay {
