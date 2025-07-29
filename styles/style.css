@@ -233,7 +233,7 @@ header {
     height:100%;
    
 }
-.card__content{
+.card__content {
     display:flex;
     flex-direction: column;
     color: #fff;
@@ -356,7 +356,7 @@ background-image: url(../images/card-lot-03.jpg);
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    margin-top: 25px;  
+    margin-top: 25px;
 }
 
 .footer {
@@ -371,7 +371,7 @@ background-image: url(../images/card-lot-03.jpg);
 
 .footer__address {
     padding-left: 50px;
-    min-width: 350px;  
+    min-width: 350px;
 }
 
 .footer__menu {
