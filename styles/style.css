@@ -30,11 +30,11 @@
   text-underline-offset: 4px;
 }
 
-.menu-list:first-child {
+.menu-text:first-child {
   list-style: none;
 }
 
-.menu-item_no_marker {
+.menu__link_active {
   text-decoration: none;
 }
 
